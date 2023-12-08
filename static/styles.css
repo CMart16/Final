@@ -1,0 +1,47 @@
+.header{
+    text-align: center;
+    color: aliceblue;
+}
+body {
+    background-color: black;
+    padding-left: 30px;
+    color: aliceblue;
+}
+
+.button3{
+    border-color: white;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button3:hover{
+    background-color: antiquewhite;
+}
+
+img{
+    color:green;
+    transition: transform .3s;
+    margin:0 auto;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+img:hover{
+    transform:scale(2);
+    move-to: center;
+    border-color: aliceblue;
+}
+
+.images{
+    text-align: center;
+    column-count: 2;
+}
+.text{
+    text-align: match-parent;
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
