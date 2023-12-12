@@ -7,5 +7,5 @@ The user will be greeted with a random image taken by the Mars Curiosity Rover.
 Paths to the gallery of past weeks' images are available.
 From the gallery, paths to NASA's original website and back to the homepage are accessible. 
 
-A SQL database is in the works, attempting to pull images from the database and also allow uploading images to the database was quite daunting.
+A SQL database is in the works, attempting to pull images from the database and also allowing uploading images to the database was quite daunting.
 Any attempt made to solve a problem only seemed to create more problems.
