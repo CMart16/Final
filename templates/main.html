@@ -11,8 +11,11 @@
         <img src="./static/Logo.gif">
     </div>
     <h2>
-        To recieve a new image, click here:
-        <button class="button button1">New Image</button><br>
+        To receive a new image, click here:
+        <a href="/">
+            <button type="submit" class = "button button1">New Image</button><br>
+        </a>
+        <img src="{{ url_for('static', filename='Data/'+ picture) }}" alt="Image" width="450" height="300"><br>
         To view the image library, click here:
         <a href="gallery">
            <button type="submit" class="button button2">View Gallery</button>

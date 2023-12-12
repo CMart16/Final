@@ -4,6 +4,7 @@
 }
 body {
     background-color: black;
+    text-align: center;
     padding-left: 30px;
     color: aliceblue;
 }
@@ -24,7 +25,6 @@ body {
 }
 
 img{
-    color:green;
     transition: transform .3s;
     margin:0 auto;
     border-radius: 7px;
